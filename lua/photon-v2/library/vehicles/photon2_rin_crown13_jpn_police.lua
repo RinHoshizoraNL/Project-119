@@ -10,10 +10,6 @@ VEHICLE.Siren = {
 	[1] = "patlite_sap520pbm",
 }
 
-VEHICLE.SubMaterials = {
-	["0"] = "rin/japan_police/crown/aichi",
-}
-
 VEHICLE.Equipment = {
 	{
 		Category = "HUD",
@@ -29,6 +25,82 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+        Category = "Livery",
+        Options = {
+            {
+                Option = "Aichi",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/aichi" }
+                }
+            },
+            {
+                Option = "Akita",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/akita" }
+                }
+            },
+			{
+                Option = "Aomori",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/aomori" }
+                }
+            },
+			{
+                Option = "Chiba",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/chiba" }
+                }
+            },
+			{
+                Option = "Ehime",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/ehime" }
+                }
+            },
+			{
+                Option = "Fukui",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/fukui" }
+                }
+            },
+			{
+                Option = "Fukuoka",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/fukuoka" }
+                }
+            },
+			{
+                Option = "Fukushima",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/fukushima" }
+                }
+            },
+			{
+                Option = "Gifu",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/gifu" }
+                }
+            },
+        }
+    },
+	{
+		Category = "Wheels",
+		Options = {
+			{
+                Option = "Silver",
+                SubMaterials = {
+                    { Id = 7, Material = nil }
+                }
+            },
+			{
+                Option = "Dark Chrome",
+                SubMaterials = {
+                    { Id = 7, Material = "models/xenoscars/crown/crown_rim_black" }
+                }
+            },
+		}
+	},
+    {
 		Category = "Lightbar",
 		Options = {
 			{
