@@ -19,9 +19,8 @@ COMPONENT.Templates = {
 		Light = {
 		    Width = 8.8,
 			Height = 8.8,
-			Shape = PhotonDynamicMaterial.GenerateLightQuad("photon/lights/rin_patlite_lp5_shape.png").MaterialName,
-			Detail = PhotonDynamicMaterial.GenerateLightQuad("photon/lights/rin_patlite_lp5_detail.png").MaterialName,
-			MaterialBloom = PhotonDynamicMaterial.GenerateBloomQuad("photon/lights/rin_patlite_lp5_bloom.png").MaterialName,
+			Shape = PhotonMaterial.GenerateLightQuad("photon/lights/rin_patlite_lp5_shape.png").MaterialName,
+			Detail = PhotonMaterial.GenerateLightQuad("photon/lights/rin_patlite_lp5_detail.png").MaterialName,
 			Scale = 2
 		},
     }
