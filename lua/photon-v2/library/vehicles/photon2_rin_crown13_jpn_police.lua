@@ -81,6 +81,48 @@ VEHICLE.Equipment = {
                     { Id = 0, Material = "rin/japan_police/crown/gifu" }
                 }
             },
+			{
+                Option = "Gunma",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/gunma" }
+                }
+            },
+			{
+                Option = "Hiroshima",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/hiroshima" }
+                }
+            },
+			{
+                Option = "Hokkaido",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/hokkaido" }
+                }
+            },
+			{
+                Option = "Hyogo",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/hyogo" }
+                }
+            },
+			{
+                Option = "Ibaraki",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/ibaraki" }
+                }
+            },
+			{
+                Option = "Ishikawa",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/ishikawa" }
+                }
+            },
+			{
+                Option = "Iwate",
+                SubMaterials = {
+                    { Id = 0, Material = "rin/japan_police/crown/iwate" }
+                }
+            },
         }
     },
 	{
